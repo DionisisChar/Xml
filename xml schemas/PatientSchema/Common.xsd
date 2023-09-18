@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.bharaththippireddy.com/Common" 
+xmlns:tns="http://www.bharaththippireddy.com/Common" 
+elementFormDefault="qualified">
+
+
+<!-- To restrict values (int) we can use patterns or Regular Expressions (RegEx) -->
+	<simpleType name="Id">
+		<restriction base="int">
+		<pattern value="[0-9]*"></pattern>
+		</restriction>
+	</simpleType>
+
+</schema>

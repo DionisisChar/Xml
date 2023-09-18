@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Patient 
+	xmlns:tns="http://www.bharaththippireddy.com/Patient"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.bharaththippireddy.com/Patient Patient.xsd " id="123">
+	<tns:name>Dion</tns:name>
+	<tns:age>33</tns:age>
+	<tns:email>dion.c@gmail.com</tns:email>
+	<tns:gender>M</tns:gender>
+	<tns:phone>+306948001212</tns:phone>
+	<tns:paymentType>
+		<tns:insurance>
+			<tns:limint>10000</tns:limint>
+			<tns:provider>Blue Cross Blue Shield</tns:provider>
+		</tns:insurance>
+	</tns:paymentType>
+</tns:Patient>

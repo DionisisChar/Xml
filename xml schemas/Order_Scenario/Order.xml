@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Order id="50" xmlns:tns="http://www.example.org/Order"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/Order Order.xsd ">
+	<tns:Product id="51">
+		<tns:name>tns:name</tns:name>
+		<tns:description>tns:description</tns:description>
+		<tns:price>0</tns:price>
+		<tns:category>electronics</tns:category>
+	</tns:Product>
+	<tns:Customer id="51">
+		<tns:name>Dion</tns:name>
+	</tns:Customer>
+</tns:Order>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.bharaththippireddy.com/Patient"
+	xmlns:tns="http://www.bharaththippireddy.com/Patient"
+	xmlns:common="http://www.bharaththippireddy.com/Common"
+	elementFormDefault="qualified">
+	
+	<!-- It is used to include elements from different schema files with same namespaces
+		 We do that to help us maintain large files -->
+	<include schemaLocation="PaymentType.xsd"></include>
+
+	<import schemaLocation="Common.xsd" namespace="http://www.bharaththippireddy.com/Common"/>
+
+	<!-- Root element for the xml to be created....one and only one -->
+	<element name="Patient" type="tns:Patient" />
+
+	<!-- A complex Type is used to contain other elements and attributes. Inside 
+		a complex type we should always use a sequence, a choice or an all. -->
+	<complexType name="Patient">
+
+		<!-- A sequence makes sure that any element that we define within this 
+			complexType should occur in the same, very same order in which we define 
+			them in the schema. -->
+		<sequence>
+			<element name="name" type="tns:string15Chars" />
+			<element name="age" type="int" />
+			<element name="email" type="string" minOccurs="0" />
+			<element name="gender" type="tns:Gender"/>
+			<element name="phone" type="string" maxOccurs="3" /> <!-- if i use unbounded then phone element can occur unlimited times -->
+			<element name="paymentType" type="tns:PaymentType"/>
+		</sequence>
+		
+		<!-- Attributes adds special meaning to the element -->
+		<attribute name="id" type="common:Id" use="required"/>
+	</complexType>
+	
+	
+	<simpleType name="Gender">
+		<restriction base="string">
+			<enumeration value="M" />
+			<enumeration value="F"/>
+		</restriction>
+	</simpleType>
+	<simpleType name="string15Chars">
+		<restriction base="string">
+			<maxLength value="15" />
+		</restriction>
+	</simpleType>
+</schema>

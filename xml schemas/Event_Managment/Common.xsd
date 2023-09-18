@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.eventmanagment.com/Common"
+	xmlns:tns="http://www.eventmanagment.com/Common"
+	elementFormDefault="qualified">
+
+	<simpleType name="stringMax25">
+		<restriction base="string">
+			<maxLength value="25" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="stringMax200">
+		<restriction base="string">
+			<maxLength value="200" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="Email">
+		<restriction base="string">
+			<pattern value="[^@]+@[^\.]+\..+" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="Phone">
+		<restriction base="string">
+			<pattern value="[0-9]{10}" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="Id">
+		<restriction base="string">
+			<pattern value="[0-9]{6}" />
+		</restriction>
+	</simpleType>
+
+</schema>

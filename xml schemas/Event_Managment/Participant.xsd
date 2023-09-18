@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.eventmanagment.com/Event"
+	xmlns:tns="http://www.eventmanagment.com/Event"
+	xmlns:common="http://www.eventmanagment.com/Common"
+	elementFormDefault="qualified">
+	<import schemaLocation="Common.xsd"
+		namespace="http://www.eventmanagment.com/Common" />
+	<complexType name="participant">
+		<sequence>
+			<element name="name" type="common:stringMax25" />
+			<element name="email" type="common:Email" />
+			<element name="phone" type="common:Phone" />
+		</sequence>
+		<attribute name="id" type="common:Id" use="required" />
+	</complexType>
+</schema>

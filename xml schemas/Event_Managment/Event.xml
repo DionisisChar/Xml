@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:event id="123456"
+	xmlns:tns="http://www.eventmanagment.com/Event"
+	xmlns:tns1="http://www.eventmanagment.com/Common"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.eventmanagment.com/Event Event.xsd ">
+	<tns:name>Blockchain Tech Summit (4th Annual)</tns:name>
+	<tns:description>Blockchain Tech Summit is the world’s most exclusive event featuring hundreds of entrepreneurs, 
+	investors, pioneers, and creatives together.</tns:description>
+	<tns:ticketPrice>0.0</tns:ticketPrice>
+	<tns:startTime>2023-10-24T10:00:00</tns:startTime>
+	<tns:endTime>2023-10-24T13:00:00</tns:endTime>
+	<tns:organizer id="123456">
+		<tns:name>Global Startup Ecosystem</tns:name>
+		<tns:email>org@o.coml</tns:email>
+		<tns:phone>6975555555</tns:phone>
+	</tns:organizer>
+	<tns:venue id="123456">
+		<tns:name>TBA Brooklyn </tns:name>
+		<tns:street>395 Wythe Ave, Brooklyn</tns:street>
+		<tns:city>NY</tns:city>
+		<tns:state>NY</tns:state>
+		<tns:country>US</tns:country>
+		<tns:zipcode>11249</tns:zipcode>
+	</tns:venue>
+	<tns:participant id="123456">
+		<tns:name>Peter</tns:name>
+		<tns:email>P@t.com</tns:email>
+		<tns:phone>6945555555</tns:phone>
+	</tns:participant>
+	<tns:participant id="123456">
+		<tns:name>John</tns:name>
+		<tns:email>J@h.com</tns:email>
+		<tns:phone>6975555555</tns:phone>
+	</tns:participant>
+	<tns:participant id="123456">
+		<tns:name>Franck</tns:name>
+		<tns:email>F@k.com</tns:email>
+		<tns:phone>6935555555</tns:phone>
+	</tns:participant>
+</tns:event>
