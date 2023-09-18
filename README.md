@@ -9,8 +9,7 @@
 
 1. [Introduction](#introduction)
 2. [Directory Structure](#directory-structure)
-3. [Getting Started](#getting-started)
-4. [Contributing](#contributing)
+3. [Contributing](#contributing)
 
 ## Introduction
 
@@ -32,11 +31,12 @@ The repository is organized as follows:
 
 Feel free to adapt and use the provided examples in your projects, and don't hesitate to open an issue if you have questions or encounter any problems.
 
-Contributing
+
+## Contributing
 Contributions are welcome! If you have additional XML-related examples, improvements, or bug fixes, please follow these steps:
 
-Fork the repository.
-Create a new branch for your changes: git checkout -b feature/your-feature-name.
-Make your changes and commit them.
-Push your changes to your fork: git push origin feature/your-feature-name.
-Open a pull request on the main repository.
+1. Fork the repository.
+2. Create a new branch for your changes: **'git checkout -b feature/your-feature-name'.**
+3. Make your changes and commit them.
+4. Push your changes to your fork: **'git push origin feature/your-feature-name**'.
+5. Open a pull request on the main repository.
