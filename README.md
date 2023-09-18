@@ -17,7 +17,7 @@ XML (Extensible Markup Language) is a widely used format for data exchange, and 
 
 - **XML Schemas:** Explore XML schema files that define the structure and constraints of XML documents.
 
-- **XML Parsing:** Learn how to parse XML documents using various programming languages and libraries.
+- **XML Parsing:** Learn how to parse XML documents using JAVA programming language and libraries.
 
 - **XSLT (Extensible Stylesheet Language Transformations):** Discover how to transform XML data using XSLT stylesheets.
 
